@@ -10,16 +10,16 @@
 
 <br>
 
-## - 📄 Font Used
+## 📄 Font Used
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) ![](./assets/img/jetbrains.png)
 
-## - 📥 Extensions List
+## 📥 Extensions List
 
 - [1]()
 - [2]()
 
-## - 🔧 Settings JSON
+## 🔧 Settings JSON
 
 ```sh
 {
