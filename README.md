@@ -10,6 +10,10 @@
 
 This is a setup that I worked hard on trying to find the one that I liked the most
 
+## How to install
+
+[![Docs](./assets/img/docs.png)]()
+
 ## 📄 Font Used
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
