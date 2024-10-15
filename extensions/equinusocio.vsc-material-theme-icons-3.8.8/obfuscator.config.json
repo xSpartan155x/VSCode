@@ -1,9 +1,0 @@
-{
-  "compact": true,
-  "controlFlowFlattening": true,
-  "optionsPreset": "high-obfuscation",
-  "selfDefending": true,
-  "splitStrings": true,
-  "unicodeEscapeSequence": true,
-  "target": "node"
-}
