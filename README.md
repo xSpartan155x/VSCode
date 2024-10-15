@@ -8,8 +8,6 @@
 
 # 😅 This is my VSCode Setup
 
-<br>
-
 ## 📄 Font Used
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
