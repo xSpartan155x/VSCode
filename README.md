@@ -17,10 +17,10 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 ## 📥 Extensions List
 
 [Better Comments]()
-[Codesnap]
+[Codesnap]()
 [Bootstrap5 Vscode]()
 [Vscode Mjml]()
-[Blackbox]
+[Blackbox]()
 [Path Intellisense]()
 [Vscode Clock]()
 [Vscode Eslint]()
@@ -28,7 +28,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 [Phptools Vscode]()
 [Profiler Php Vscode]()
 [Svg Viewer]()
-[Gitlens]
+[Gitlens]()
 [Vsc Material Theme]()
 [Vsc Material Theme Icons]()
 [Prettier Vscode]()
@@ -37,7 +37,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 [Remotehub]()
 [Vscode Status Bar Title]()
 [Readme Preview]()
-[Debugpy]
+[Debugpy]()
 [Python]()
 [Remote Ssh]()
 [Remote Ssh Edit]()
