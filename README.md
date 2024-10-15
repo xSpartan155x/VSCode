@@ -62,10 +62,9 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 - [Vscode Status Bar Title](https://marketplace.visualstudio.com/items?itemName=ksoichiro.vscode-status-bar-title)
 - [Vsliveshare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Wordpress Toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
-
+<details open>
 ## 🔧 Settings JSON
-
-```sh
+  <summary>```sh
 {
   "workbench.startupEditor": "none",
   "security.workspace.trust.untrustedFiles": "open",
@@ -140,7 +139,10 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
     "**/*.ts"
   ]
 }
-```
+```</summary>
+</details>
+
+
 
 <br>
 
