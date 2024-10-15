@@ -6,7 +6,7 @@
 
 ![](./assets/img/vscode.jpg)
 
-# 😅 This is my VSCode Setup
+# 😅 My VSCode Setup
 
 This is a setup that I worked hard on trying to find the one that I liked the most
 
