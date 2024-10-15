@@ -2,9 +2,9 @@
 
 # Hi, I'm Spartan (💻💖)
 
-![](./assets/img/vscode.jpg)
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=comfortaa&color=016EEA&size=24&width=500&lines=VSCode+Settings;VSCode+Extensions;Cutsom+Font+For+Better+Visualization)
+
+![](./assets/img/vscode.jpg)
 
 # 😅 This is my VSCode Setup
 
