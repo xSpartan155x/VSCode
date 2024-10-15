@@ -12,8 +12,8 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
 ## How to install
 
-<p align="center">
-  <a href="https://github.com/xSpartan155x/VSCode/tree/main/docs"><img src="./assets/img/docs.png"></a>
+<p align="left">
+  <a href="https://github.com/xSpartan155x/VSCode/tree/main/docs"><img width="100px" src="./assets/img/docs.png"></a>
 </p>
 
 
