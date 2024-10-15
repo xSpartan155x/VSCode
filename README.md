@@ -20,30 +20,6 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
-
-## column 
-
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)  - [Readme Preview](https://marketplace.visualstudio.com/items?itemName=manishsencha.readme-preview)
-- [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Blackbox](https://marketplace.visualstudio.com/items?itemName=Blackboxapp.blackbox)
-- [Bootstrap5 Vscode](https://marketplace.visualstudio.com/items?itemName=AnbuselvanRocky.bootstrap5-vscode)
-- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-- [Codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
-- [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-- [Discord Py Snippets](https://marketplace.visualstudio.com/items?itemName=WasiMaster.discord-py-snippets)
-- [Errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Intelli Php Vscode](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.intelli-php-vscode)
-- [Javascript Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-- [Liveserver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Phptools Vscode](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
-- [Profiler Php Vscode](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
-- [Prettier Vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
 ## 📥 Extensions List
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
