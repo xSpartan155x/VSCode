@@ -62,9 +62,10 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 - [Vscode Status Bar Title](https://marketplace.visualstudio.com/items?itemName=ksoichiro.vscode-status-bar-title)
 - [Vsliveshare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Wordpress Toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
-<details open>
+  
 ## 🔧 Settings JSON
-  <summary>```sh
+
+  ```sh
 {
   "workbench.startupEditor": "none",
   "security.workspace.trust.untrustedFiles": "open",
@@ -139,10 +140,87 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
     "**/*.ts"
   ]
 }
-```</summary>
+```
+
+<details open>
+  <summary>## 🔧 Settings JSON</summary>
+   ```sh
+{
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "bold",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "better-comments.tags": [
+    {
+      "tag": "TODO:",
+      "color": "#EA580C",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "FIXME:",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "BUG:",
+      "color": "#9333EA",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "HACK:",
+      "color": "#C026D3",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "NOTE:",
+      "color": "#2563EB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "INFO:",
+      "color": "#0EA5E9",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "IDEA:",
+      "color": "#FFF",
+      "strikethrough": false,
+      "backgroundColor": "#EAB308"
+    }
+  ],
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "remote.SSH.remotePlatform": {
+    "spartan-craft.sytes.net": "linux"
+  },
+  "editor.stickyScroll.enabled": false,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ]
+}
+```
 </details>
-
-
 
 <br>
 
