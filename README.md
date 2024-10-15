@@ -36,7 +36,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 - [Profiler Php Vscode](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.profiler-php-vscode)
 - [Svg Viewer](https://marketplace.visualstudio.com/items?itemName=Dheovani.svg-viewer)
 - [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Vsc Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons)
+- [Vsc Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 - [Vsc Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme-icons)
 - [Prettier Vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
