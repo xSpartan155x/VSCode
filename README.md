@@ -12,7 +12,7 @@
 
 ## 📄 Font Used
 
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) ![](./assets/img/jetbrains.png)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## 📥 Extensions List
 
