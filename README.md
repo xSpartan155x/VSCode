@@ -19,6 +19,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 ## 📄 Font Used
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+  
 ![](./assets/img/example.png)
 
 ## 📥 Extensions List
