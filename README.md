@@ -17,6 +17,16 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 </p>
 
 
+|||---||| 4,2,6
+### Column 1
+
+Content for column 1
+
+### Column 2
+
+Content for column 2
+|||---|||
+
 ## 📄 Font Used
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
