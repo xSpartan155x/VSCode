@@ -13,7 +13,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 ## How to install
 
 <p align="center">
-  [![Docs](./assets/img/docs.png)]()
+  <img src="./assets/img/docs.png">
 </p>
 
 
