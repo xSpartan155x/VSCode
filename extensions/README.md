@@ -1,6 +1,6 @@
 ## How to install ?
 
-After downloaded VSCode open a terminal and execute the code inside install.txt
+After downloaded VSCode open a terminal and execute the code inside install.txt or copy from here
 ```sh
 code --install-extension aaron-bond.better-comments
 code --install-extension adpyke.codesnap
