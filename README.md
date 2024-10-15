@@ -12,7 +12,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
 ## How to install
 
-[![Docs](./assets/img/docs.png)]()
+[![Docs](./assets/img/docs.png =50x10)]()
 
 ## 📄 Font Used
 
