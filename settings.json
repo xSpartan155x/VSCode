@@ -1,126 +1,120 @@
 {
-  /** ------------ Additional Configurations ------------ **/
-  "explorer.confirmDelete": false,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.ignoreFiles": [
-      ".vscode/**",
-      "**/*.scss",
-      "**/*.sass",
-      "**/*.ts"
-  ],
-  "python.createEnvironment.trigger": "off",
-  "remote.SSH.remotePlatform": {
-      "spartan-craft.sytes.net": "linux"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "settingsSync.ignoredExtensions": [],
-  "vscode_custom_css.imports": [
-      "file:///${env:APPDATA}/Code/User/vscode-custom/style.css",
-      "file:///${env:APPDATA}/Code/User/vscode-custom/script.js"
-  ],
+    /** ------------ Workbench Settings ------------ **/
+    "workbench.colorCustomizations": {
+        "inlineparameters.annotationBackground": "#282A3600",
+        "inlineparameters.annotationForeground": "#7b82af",
+        "scrollbar.shadow": "#24292e00"
+    },
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.editorLargeFileConfirmation": 10024,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.tree.indent": 16,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.empty.hint": "hidden",
 
-  /** ------------ Breadcrumbs Configurations ------------ **/
-  "breadcrumbs.enabled": true,
-  "breadcrumbs.filePath": "on",
-  "breadcrumbs.symbolPath": "on",
+    /** ------------ Breadcrumbs Configurations ------------ **/
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.symbolPath": "on",
+    "breadcrumbs.filePath": "on",
 
-  /** ------------ Editor Settings ------------ **/
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "line",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 16,
-  "editor.fontWeight": "bold",
-  "editor.folding": true,
-  "editor.glyphMargin": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.indentation": false,
-  "editor.lineHeight": 26,
-  "editor.lineNumbers": "on",
-  "editor.minimap.enabled": false,
-  "editor.mouseWheelZoom": true,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.smoothScrolling": true,
-  "editor.stickyScroll.enabled": false,
-  "editor.unicodeHighlight.ambiguousCharacters": false,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.wordWrap": "off",
+    /** ------------ Editor Settings ------------ **/
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "bold",
+    "editor.fontLigatures": true,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.guides.bracketPairs": "active",
+    "editor.lineHeight": 26,
+    "editor.lineNumbers": "on",
+    "editor.folding": true,
+    "editor.glyphMargin": true,
+    "editor.guides.indentation": false,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "editor.stickyScroll.enabled": false,
 
-  /** ------------ Prettier ------------ **/
-  "prettier.printWidth": 300,
-  "prettier.tabWidth": 4,
+    /** ------------ Terminal Configurations ------------ **/
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
 
-  /** ------------ Terminal Configurations ------------ **/
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.enableMultiLinePasteWarning": "always",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontSize": 14,
+    /** ------------ Additional Configurations ------------ **/
+    "vscode_custom_css.imports": ["file:///${env:APPDATA}/Code/User/vscode-custom/style.css", "file:///${env:APPDATA}/Code/User/vscode-custom/script.js"],
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "settingsSync.ignoredExtensions": [],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "notebook.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.ignoreFiles": [".vscode/**", "**/*.scss", "**/*.sass", "**/*.ts"],
+    "python.createEnvironment.trigger": "off",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 
-  /** ------------ VSCode Workbench Settings ------------ **/
-  "workbench.colorCustomizations": {
-      "inlineparameters.annotationBackground": "#282A3600",
-      "inlineparameters.annotationForeground": "#7b82af",
-      "scrollbar.shadow": "#24292e00"
-  },
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.editorLargeFileConfirmation": 10024,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.editor.showTabs": "multiple",
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
-  "workbench.layoutControl.enabled": false,
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "none",
-  "workbench.tree.indent": 16,
+    /** ------------ Prettier ------------ **/
+    "prettier.printWidth": 300,
+    "prettier.tabWidth": 4,
 
-  /** ------------ Better Comments ------------ **/
-  "better-comments.tags": [
-      {
-          "tag": "TODO",
-          "color": "#EA580C",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "FIXME",
-          "color": "#FF2D00",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "BUG:",
-          "color": "#9333EA",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "HACK",
-          "color": "#C026D3",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "NOTE",
-          "color": "#2563EB",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "INFO",
-          "color": "#0EA5E9",
-          "strikethrough": false,
-          "backgroundColor": "transparent"
-      },
-      {
-          "tag": "IDEA",
-          "color": "#FFF",
-          "strikethrough": false,
-          "backgroundColor": "#EAB308"
-      }
-  ]
+    /** ------------ Better Comments ------------ **/
+    "better-comments.tags": [
+        {
+            "tag": "TODO",
+            "color": "#EA580C",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "FIXME",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "BUG:",
+            "color": "#9333EA",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "HACK",
+            "color": "#C026D3",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "NOTE",
+            "color": "#2563EB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "INFO",
+            "color": "#0EA5E9",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "IDEA",
+            "color": "#FFF",
+            "strikethrough": false,
+            "backgroundColor": "#EAB308"
+        }
+    ]
 }

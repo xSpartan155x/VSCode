@@ -87,15 +87,15 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
         "inlineparameters.annotationForeground": "#7b82af",
         "scrollbar.shadow": "#24292e00"
     },
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.productIconTheme": "fluent-icons",
     "workbench.editorLargeFileConfirmation": 10024,
     "workbench.layoutControl.enabled": false,
     "workbench.editor.showTabs": "multiple",
     "workbench.tree.indent": 16,
     "workbench.startupEditor": "none",
-    "workbench.editor.empty.hint": "hidden",
     "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.editor.empty.hint": "hidden",
 
     /** ------------ Breadcrumbs Configurations ------------ **/
     "breadcrumbs.enabled": true,
@@ -104,6 +104,8 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
     /** ------------ Editor Settings ------------ **/
     "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 16,
     "editor.fontWeight": "bold",
@@ -117,50 +119,40 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
     "editor.folding": true,
     "editor.glyphMargin": true,
     "editor.guides.indentation": false,
-    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.horizontal": "visible",
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "off",
     "editor.stickyScroll.enabled": false,
-    "editor.cursorStyle": "line",
-    "editor.cursorSmoothCaretAnimation": "on",
-    
+
     /** ------------ Terminal Configurations ------------ **/
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.enableMultiLinePasteWarning": "always",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
 
     /** ------------ Additional Configurations ------------ **/
-    "vscode_custom_css.imports": [
-        "file:///${env:APPDATA}/Code/User/vscode-custom/style.css",
-        "file:///${env:APPDATA}/Code/User/vscode-custom/script.js"
-    ],
+    "vscode_custom_css.imports": ["file:///${env:APPDATA}/Code/User/vscode-custom/style.css", "file:///${env:APPDATA}/Code/User/vscode-custom/script.js"],
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
+    "settingsSync.ignoredExtensions": [],
     "liveServer.settings.donotShowInfoMsg": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "notebook.defaultFormatter": "esbenp.prettier-vscode",
-    "remote.SSH.remotePlatform": {
-        "spartan-craft.sytes.net": "linux"
-    },
-    "liveServer.settings.ignoreFiles": [
-        ".vscode/**",
-        "**/*.scss",
-        "**/*.sass",
-        "**/*.ts"
-    ],
+    "liveServer.settings.ignoreFiles": [".vscode/**", "**/*.scss", "**/*.sass", "**/*.ts"],
     "python.createEnvironment.trigger": "off",
-    "settingsSync.ignoredExtensions": [],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
 
     /** ------------ Prettier ------------ **/
-    "prettier.tabWidth": 4,
     "prettier.printWidth": 300,
+    "prettier.tabWidth": 4,
 
     /** ------------ Better Comments ------------ **/
     "better-comments.tags": [
