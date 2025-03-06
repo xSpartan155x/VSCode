@@ -5,6 +5,9 @@
   font-family: 'MesloLGS NF', 'SF Mono', monospace;
 } 
 
+.monaco-button.monaco-text-button{
+  background-color: var(--vscode-activityBar-activeBorder)!important ;
+}
 /* ------------ Title Bar ------------ */
 .monaco-workbench .part.titlebar {
   border-bottom: 1px solid #181C20 !important;
