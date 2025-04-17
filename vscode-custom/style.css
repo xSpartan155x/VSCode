@@ -5,7 +5,13 @@
   font-family: 'MesloLGS NF', 'SF Mono', monospace;
 } 
 
-.monaco-button.monaco-text-button{
+.monaco-button.monaco-text-button {
+  background-color: var(--vscode-activityBar-activeBorder)!important ;
+}
+.monaco-button-dropdown-separator {
+background-color: var(--vscode-activityBar-activeBorder)!important ;
+}
+.monaco-button.monaco-dropdown-button.codicon.codicon-drop-down-button {
   background-color: var(--vscode-activityBar-activeBorder)!important ;
 }
 /* ------------ Title Bar ------------ */
