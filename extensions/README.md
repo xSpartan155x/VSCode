@@ -8,9 +8,7 @@ code --install-extension anbuselvanrocky.bootstrap5-vscode
 code --install-extension angular.ng-template
 code --install-extension attilabuti.vscode-mjml
 code --install-extension be5invis.vscode-custom-css
-code --install-extension blackboxapp.blackbox
-code --install-extension blackboxapp.blackboxagent
-code --install-extension bradlc.vscode-tailwindcss
+code --install-extension brandonkirbyson.vscode-animations
 code --install-extension chadalen.vscode-jetbrains-icon-theme
 code --install-extension christian-kohler.path-intellisense
 code --install-extension compulim.vscode-clock
@@ -27,12 +25,14 @@ code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
 code --install-extension github.github-vscode-theme
 code --install-extension github.remotehub
 code --install-extension hridoy.jquery-snippets
 code --install-extension johnpapa.angular2
 code --install-extension ksoichiro.vscode-status-bar-title
-code --install-extension mhutchie.git-graph
+code --install-extension manishsencha.readme-preview
 code --install-extension miguelsolorio.fluent-icons
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.python
@@ -44,6 +44,7 @@ code --install-extension ms-vscode.azure-repos
 code --install-extension ms-vscode.remote-explorer
 code --install-extension ms-vscode.remote-repositories
 code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension pkief.material-icon-theme
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension ritwickdey.liveserver
 code --install-extension robocorp.robotframework-lsp
