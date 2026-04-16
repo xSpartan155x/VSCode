@@ -46,14 +46,14 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 ## 🔧 Settings JSON
 
   ```sh
-{
+  {
     /** ------------ Workbench Settings ------------ **/
     "workbench.colorCustomizations": {
         "inlineparameters.annotationBackground": "#282A3600",
         "inlineparameters.annotationForeground": "#7b82af",
         "scrollbar.shadow": "#24292e00"
     },
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
     "workbench.editorLargeFileConfirmation": 10024,
     "workbench.layoutControl.enabled": false,
@@ -68,11 +68,11 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.filePath": "on",
 
-    /** ------------ Editor Settings ------------ **/
+    /** ------------ Editor Settings 1546 Poliphile/jetbrains mono------------ **/
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorStyle": "line",
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.cursorStyle": "line",   
+    "editor.fontFamily": "Jetbrains Mono",
     "editor.fontSize": 16,
     "editor.fontWeight": "bold",
     "editor.fontLigatures": true,
@@ -92,17 +92,21 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
     "editor.wordWrap": "off",
     "editor.stickyScroll.enabled": false,
 
-    /** ------------ Terminal Configurations ------------ **/
+    /** ------------ Terminal Configurations 1546 Poliphile------------ **/
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
 
     /** ------------ Additional Configurations ------------ **/
-    "vscode_custom_css.imports": ["file:///${env:APPDATA}/Code/User/vscode-custom/style.css", "file:///${env:APPDATA}/Code/User/vscode-custom/script.js"],
+    "vscode_custom_css.imports": [
+        "https://github.com/xSpartan155x/VSCode/raw/refs/heads/main/vscode-custom/red/style.css",
+        "https://github.com/xSpartan155x/VSCode/raw/refs/heads/main/vscode-custom/red/script.js",
+        "file:///c:/Users/AlessandroPetrocco/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
     "settingsSync.ignoredExtensions": [],
@@ -118,7 +122,6 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
     /** ------------ Prettier ------------ **/
     "prettier.printWidth": 300,
-    "prettier.tabWidth": 4,
 
     /** ------------ Better Comments ------------ **/
     "better-comments.tags": [
@@ -164,7 +167,40 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
             "strikethrough": false,
             "backgroundColor": "#EAB308"
         }
-    ]
+    ],
+    "remote.SSH.remotePlatform": {
+        "admin": "linux",
+        "servers": "linux",
+        "temp": "linux"
+    },
+    "tailwind-raw-reorder.runOnSave": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[lua]": {
+        "editor.defaultFormatter": "gea-embedded.metalua-formatter"
+    },
+    "extensions.ignoreRecommendations": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "typescript": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "explorer.confirmDragAndDrop": false,
+    "chat.viewSessions.orientation": "stacked",
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/Thumbs.db": false
+    }
 }
 
 ```
