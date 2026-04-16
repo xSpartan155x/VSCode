@@ -24,68 +24,25 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 
 ## 📥 Extensions List
 
-- [Angular schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-- [Angular2](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular2)
-- [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Azure repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
-- [Better comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
-- [Bootstrap5 vscode](https://marketplace.visualstudio.com/items?itemName=anbuselvanrocky.bootstrap5-vscode)
-- [Vscode mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml)
-- [Vscode custom css](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
-- [Vscode animations](https://marketplace.visualstudio.com/items?itemName=brandonkirbyson.vscode-animations)
-- [Vscode jetbrains icon theme](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
-- [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Vscode clock](https://marketplace.visualstudio.com/items?itemName=compulim.vscode-clock)
-- [Vscode eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Composer php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.composer-php-vscode)
-- [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-- [Discord py snippets](https://marketplace.visualstudio.com/items?itemName=wasimaster.discord-py-snippets)
-- [Errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
-- [Git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-- [Github vscode theme](https://marketplace.visualstudio.com/items?itemName=github.github-vscode-theme)
-- [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Intelli php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.intelli-php-vscode)
-- [Javascriptsnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets)
-- [Jquery snippets](https://marketplace.visualstudio.com/items?itemName=hridoy.jquery-snippets)
-- [Jquerysnippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets)
-- [Liveserver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver)
-- [Markdown preview enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-- [Ng template](https://marketplace.visualstudio.com/items?itemName=angular.ng-template)
-- [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Phptools vscode](https://marketplace.visualstudio.com/items?itemName=devsense.phptools-vscode)
-- [Profiler php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.profiler-php-vscode)
-- [Svg viewer](https://marketplace.visualstudio.com/items?itemName=dheovani.svg-viewer)
-- [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Prettier vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-- [Copilot](https://marketplace.visualstudio.com/items?itemName=github.copilot)
-- [Copilot chat](https://marketplace.visualstudio.com/items?itemName=github.copilot-chat)
-- [Github vscode theme](https://marketplace.visualstudio.com/items?itemName=github.github-vscode-theme)
-- [Remotehub](https://marketplace.visualstudio.com/items?itemName=github.remotehub)
-- [Vscode status bar title](https://marketplace.visualstudio.com/items?itemName=ksoichiro.vscode-status-bar-title)
-- [Readme preview](https://marketplace.visualstudio.com/items?itemName=manishsencha.readme-preview)
-- [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
-- [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Vscode pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-- [Remote ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-- [Remote ssh edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
-- [Remote wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-- [Azure repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos)
-- [Remote explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
-- [Remote repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
-- [Vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
-- [Material icon theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
-- [Vscode css peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-- [Liveserver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver)
-- [Vscode pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
-- [Errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Discord py snippets](https://marketplace.visualstudio.com/items?itemName=wasimaster.discord-py-snippets)
-- [Wordpress toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
-- [Javascriptsnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets)
+| Colonna 1 | Colonna 2 | Colonna 3 |
+|----------|----------|----------|
+| [Angular schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) | [Angular2](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular2) | [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) |
+| [Azure repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos) | [Better comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | [Codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) |
+| [Bootstrap5 vscode](https://marketplace.visualstudio.com/items?itemName=anbuselvanrocky.bootstrap5-vscode) | [Vscode mjml](https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml) | [Vscode custom css](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) |
+| [Vscode animations](https://marketplace.visualstudio.com/items?itemName=brandonkirbyson.vscode-animations) | [Vscode jetbrains icon theme](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme) | [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) |
+| [Vscode clock](https://marketplace.visualstudio.com/items?itemName=compulim.vscode-clock) | [Vscode eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | [Composer php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.composer-php-vscode) |
+| [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) | [Discord py snippets](https://marketplace.visualstudio.com/items?itemName=wasimaster.discord-py-snippets) | [Errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) |
+| [Fluent icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) | [Git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) | [Github vscode theme](https://marketplace.visualstudio.com/items?itemName=github.github-vscode-theme) |
+| [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | [Intelli php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.intelli-php-vscode) | [Javascriptsnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.javascriptsnippets) |
+| [Jquery snippets](https://marketplace.visualstudio.com/items?itemName=hridoy.jquery-snippets) | [Jquerysnippets](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets) | [Liveserver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.liveserver) |
+| [Markdown preview enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) | [Ng template](https://marketplace.visualstudio.com/items?itemName=angular.ng-template) | [Phptools vscode](https://marketplace.visualstudio.com/items?itemName=devsense.phptools-vscode) |
+| [Profiler php vscode](https://marketplace.visualstudio.com/items?itemName=devsense.profiler-php-vscode) | [Svg viewer](https://marketplace.visualstudio.com/items?itemName=dheovani.svg-viewer) | [Prettier vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
+| [Code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | [Copilot](https://marketplace.visualstudio.com/items?itemName=github.copilot) | [Copilot chat](https://marketplace.visualstudio.com/items?itemName=github.copilot-chat) |
+| [Remotehub](https://marketplace.visualstudio.com/items?itemName=github.remotehub) | [Vscode status bar title](https://marketplace.visualstudio.com/items?itemName=ksoichiro.vscode-status-bar-title) | [Readme preview](https://marketplace.visualstudio.com/items?itemName=manishsencha.readme-preview) |
+| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | [Vscode pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) | [Remote ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) |
+| [Remote ssh edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) | [Remote wsl](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) | [Remote explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer) |
+| [Remote repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories) | [Vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) | [Material icon theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme) |
+| [Vscode css peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) | [Vscode pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) | [Wordpress toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox) |
   
 ## 🔧 Settings JSON
 
