@@ -23,7 +23,7 @@ This is a setup that I worked hard on trying to find the one that I liked the mo
 ![](./assets/img/example.png)
 
 ## 📥 Extensions List
-
+| Estensioni |  |  |
 |----------|----------|----------|
 | [Angular schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) | [Angular2](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular2) | [Auto rename tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) |
 | [Azure repos](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos) | [Better comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) | [Codesnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap) |
