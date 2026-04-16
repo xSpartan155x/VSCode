@@ -91,7 +91,9 @@ li.action-item.icon.checked {
 li.action-item.icon.checked:hover a.action-label.codicon,
 li.action-item.icon.checked:hover .codicon:before,
 li.action-item.icon.checked a.action-label.codicon,
-li.action-item.icon.checked .codicon:before {
+li.action-item.icon.checked .codicon:before,
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked:hover .action-label.codicon,
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked:hover .codicon:before {
   color: var(--theme-accent) !important;
 }
 
