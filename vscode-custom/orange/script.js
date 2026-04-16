@@ -4,12 +4,7 @@ const THEME_SELECTORS = {
     editorContent: ".monaco-workbench .part.editor>.content",
 };
 
-const MODAL_SELECTORS = [
-    ".quick-input-widget",
-    ".monaco-dialog-box",
-    ".monaco-menu-container.visible",
-    ".suggest-widget.visible",
-];
+const OVERLAY_TRIGGER_SELECTOR = ".quick-input-widget";
 
 const THEME_ELEMENT_IDS = {
     overlay: "bg-blur",
@@ -63,7 +58,7 @@ function handleDocumentKeydown(event) {
 }
 
 function syncOverlayVisibility() {
-    if (hasVisibleModal()) {
+    if (hasVisibleOverlayTrigger()) {
         ensureOverlay();
         return;
     }
@@ -86,12 +81,10 @@ function isElementVisible(element) {
     );
 }
 
-function hasVisibleModal() {
-    return MODAL_SELECTORS.some((selector) => {
-        const elements = document.querySelectorAll(selector);
+function hasVisibleOverlayTrigger() {
+    const elements = document.querySelectorAll(OVERLAY_TRIGGER_SELECTOR);
 
-        return Array.from(elements).some(isElementVisible);
-    });
+    return Array.from(elements).some(isElementVisible);
 }
 
 function ensureOverlay() {
