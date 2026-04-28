@@ -7,11 +7,11 @@
   --theme-editor-line-highlight: rgba(59, 130, 246, 0.14);
   --theme-overlay-background: linear-gradient(135deg, rgba(5, 10, 25, 0.46), rgba(59, 130, 246, 0.14), rgba(5, 10, 25, 0.76));
   --theme-overlay-blur: 18px;
-  --theme-bg-canvas: #040814;
+  --theme-bg-canvas: linear-gradient(160deg, rgba(59, 130, 246, 0.2) 0%, #040814 34%, #09111f 68%, rgba(14, 165, 233, 0.18) 100%);
   --theme-main-gradient: radial-gradient(circle at top left, rgba(59, 130, 246, 0.34), transparent 30%), radial-gradient(circle at 85% 15%, rgba(14, 165, 233, 0.18), transparent 28%), radial-gradient(circle at 50% 100%, rgba(37, 99, 235, 0.12), transparent 36%), linear-gradient(155deg, #040814 0%, #09111f 42%, #040814 100%);
-  --theme-panel-gradient: linear-gradient(180deg, rgba(8, 13, 28, 0.88), rgba(8, 12, 24, 0.72));
-  --theme-elevated-background: rgba(10, 17, 34, 0.72);
-  --theme-elevated-background-strong: rgba(13, 21, 40, 0.92);
+  --theme-panel-gradient: linear-gradient(180deg, rgba(8, 13, 28, 0.9), rgba(24, 49, 94, 0.76));
+  --theme-elevated-background: linear-gradient(180deg, rgba(10, 17, 34, 0.82), rgba(24, 44, 82, 0.66));
+  --theme-elevated-background-strong: linear-gradient(180deg, rgba(13, 21, 40, 0.96), rgba(28, 55, 104, 0.88));
   --theme-border-soft: rgba(148, 197, 255, 0.14);
 }
 
@@ -58,7 +58,7 @@ div#workbench\.parts\.activitybar,
 }
 /* ------------ Title Bar ------------ */
 .monaco-workbench .part.titlebar {
-  border-bottom: 1px solid #181C20 !important;
+  border-bottom: 1px solid var(--theme-border-soft) !important;
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title {
@@ -197,7 +197,7 @@ li.action-item.icon.checked a.action-label.codicon {
 }
 
 .quick-input-widget {
-  background: linear-gradient(180deg, rgba(9, 15, 32, 0.96), rgba(9, 15, 32, 0.84)) !important;
+  background: var(--theme-elevated-background-strong) !important;
   border-radius: 14px !important;
   min-height: 58px !important;
   box-shadow: 0px 2px 10px 4px var(--vscode-widget-shadow) !important;

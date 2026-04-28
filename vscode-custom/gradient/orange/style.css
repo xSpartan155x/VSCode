@@ -7,11 +7,11 @@
   --theme-editor-line-highlight: rgba(249, 115, 22, 0.14);
   --theme-overlay-background: linear-gradient(135deg, rgba(11, 7, 5, 0.46), rgba(249, 115, 22, 0.15), rgba(11, 7, 5, 0.78));
   --theme-overlay-blur: 18px;
-  --theme-bg-canvas: #0a0604;
+  --theme-bg-canvas: linear-gradient(160deg, rgba(249, 115, 22, 0.22) 0%, #0a0604 34%, #1a0d07 68%, rgba(251, 146, 60, 0.2) 100%);
   --theme-main-gradient: radial-gradient(circle at top left, rgba(249, 115, 22, 0.3), transparent 30%), radial-gradient(circle at 84% 18%, rgba(251, 146, 60, 0.16), transparent 28%), radial-gradient(circle at 50% 100%, rgba(194, 65, 12, 0.12), transparent 34%), linear-gradient(155deg, #0a0604 0%, #1a0d07 42%, #0a0604 100%);
-  --theme-panel-gradient: linear-gradient(180deg, rgba(25, 12, 7, 0.88), rgba(25, 12, 7, 0.72));
-  --theme-elevated-background: rgba(28, 13, 8, 0.72);
-  --theme-elevated-background-strong: rgba(34, 16, 9, 0.92);
+  --theme-panel-gradient: linear-gradient(180deg, rgba(25, 12, 7, 0.9), rgba(97, 42, 12, 0.76));
+  --theme-elevated-background: linear-gradient(180deg, rgba(28, 13, 8, 0.82), rgba(114, 48, 12, 0.66));
+  --theme-elevated-background-strong: linear-gradient(180deg, rgba(34, 16, 9, 0.96), rgba(132, 57, 14, 0.88));
   --theme-border-soft: rgba(253, 186, 116, 0.14);
 }
 
@@ -58,7 +58,7 @@ div#workbench\.parts\.activitybar,
 }
 /* ------------ Title Bar ------------ */
 .monaco-workbench .part.titlebar {
-  border-bottom: 1px solid #181C20 !important;
+  border-bottom: 1px solid var(--theme-border-soft) !important;
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title {
@@ -197,7 +197,7 @@ li.action-item.icon.checked a.action-label.codicon {
 }
 
 .quick-input-widget {
-  background: linear-gradient(180deg, rgba(29, 14, 8, 0.96), rgba(29, 14, 8, 0.84)) !important;
+  background: var(--theme-elevated-background-strong) !important;
   border-radius: 14px !important;
   min-height: 58px !important;
   box-shadow: 0px 2px 10px 4px var(--vscode-widget-shadow) !important;
