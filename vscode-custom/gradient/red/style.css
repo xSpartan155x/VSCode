@@ -5,13 +5,13 @@
   --theme-accent-surface: rgba(239, 68, 68, 0.16);
   --theme-accent-surface-strong: rgba(239, 68, 68, 0.28);
   --theme-editor-line-highlight: rgba(239, 68, 68, 0.14);
-  --theme-overlay-background: linear-gradient(135deg, rgba(12, 5, 8, 0.46), rgba(239, 68, 68, 0.15), rgba(12, 5, 8, 0.78));
+  --theme-overlay-background: linear-gradient(135deg, rgba(104, 24, 43, 0.4), rgba(239, 68, 68, 0.18), rgba(126, 34, 56, 0.68));
   --theme-overlay-blur: 18px;
-  --theme-bg-canvas: linear-gradient(160deg, rgba(239, 68, 68, 0.22) 0%, #0a0408 34%, #180810 68%, rgba(244, 63, 94, 0.18) 100%);
-  --theme-main-gradient: radial-gradient(circle at top left, rgba(239, 68, 68, 0.3), transparent 30%), radial-gradient(circle at 82% 18%, rgba(244, 63, 94, 0.16), transparent 28%), radial-gradient(circle at 50% 100%, rgba(190, 24, 93, 0.1), transparent 34%), linear-gradient(155deg, #0a0408 0%, #180810 42%, #0a0408 100%);
-  --theme-panel-gradient: linear-gradient(180deg, rgba(24, 9, 14, 0.9), rgba(96, 22, 42, 0.76));
-  --theme-elevated-background: linear-gradient(180deg, rgba(27, 11, 16, 0.82), rgba(112, 24, 48, 0.66));
-  --theme-elevated-background-strong: linear-gradient(180deg, rgba(33, 13, 19, 0.96), rgba(132, 29, 56, 0.88));
+  --theme-bg-canvas: linear-gradient(160deg, rgba(248, 113, 113, 0.26) 0%, rgba(127, 29, 29, 0.94) 34%, rgba(136, 19, 55, 0.9) 68%, rgba(251, 113, 133, 0.24) 100%);
+  --theme-main-gradient: radial-gradient(circle at top left, rgba(239, 68, 68, 0.32), transparent 30%), radial-gradient(circle at 82% 18%, rgba(244, 63, 94, 0.18), transparent 28%), radial-gradient(circle at 50% 100%, rgba(190, 24, 93, 0.14), transparent 34%), linear-gradient(155deg, rgba(127, 29, 29, 0.98) 0%, rgba(136, 19, 55, 0.94) 42%, rgba(190, 24, 93, 0.9) 100%);
+  --theme-panel-gradient: linear-gradient(180deg, rgba(153, 27, 27, 0.88), rgba(225, 29, 72, 0.72));
+  --theme-elevated-background: linear-gradient(180deg, rgba(185, 28, 28, 0.82), rgba(244, 63, 94, 0.62));
+  --theme-elevated-background-strong: linear-gradient(180deg, rgba(190, 24, 93, 0.92), rgba(251, 113, 133, 0.78));
   --theme-border-soft: rgba(252, 165, 165, 0.14);
 }
 
@@ -46,6 +46,26 @@ div#workbench\.parts\.activitybar,
   backdrop-filter: blur(22px) saturate(145%);
   border-color: var(--theme-border-soft) !important;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.monaco-workbench .part.sidebar>.content,
+.monaco-workbench .part.auxiliarybar>.content,
+.monaco-workbench .part.panel>.content,
+.monaco-workbench .part.sidebar .composite,
+.monaco-workbench .part.auxiliarybar .composite,
+.monaco-workbench .part.panel .composite,
+.monaco-workbench .pane-header,
+.monaco-workbench .pane-body,
+.monaco-workbench .split-view-view,
+.monaco-workbench .monaco-scrollable-element,
+.monaco-workbench .monaco-scrollable-element>.scrollable,
+.monaco-workbench .monaco-list-rows,
+.monaco-workbench .tree-explorer-viewlet-tree-view,
+.monaco-workbench .interactive-session,
+.monaco-workbench .chat-view-content,
+.monaco-workbench .chat-list-container,
+.monaco-workbench .chat-welcome-view {
+  background: var(--theme-panel-gradient) !important;
 }
 
 .monaco-workbench .part.editor>.content {
@@ -346,8 +366,9 @@ li.action-item.icon.checked a.action-label.codicon {
 .monaco-editor .find-widget {
   border-radius: 4px;
   padding-top: 1px !important;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px 1px rgba(127, 29, 29, 0.24);
   top: 3px !important;
+  background: var(--theme-elevated-background-strong) !important;
 }
 
 .monaco-editor .find-widget .monaco-sash {
@@ -360,7 +381,7 @@ li.action-item.icon.checked a.action-label.codicon {
 }
 
 .monaco-editor .find-widget .button.toggle:hover {
-  background-color: var(--vscode-editorWidget-background) !important;
+  background: var(--theme-elevated-background) !important;
 }
 
 /* ------------ Notifications ------------ */
